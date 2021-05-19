@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="./images/rabbit-logo.png" class="rabbit-logo">
+      <h1 class="logo">
+        <div class="company-1stname">orange</div>
+        <div class="company-2ndname">RABBIT</div>
+      </h1>
+    </div>
+    <nav>
+      <div class="home">
+        <img src="./images/home-icon.png" class="r-logo">
+        <span class="home-name">home</span>
+      </div>
+
+      <div class="about">
+        <img src="./images/about-icon.png">
+        <span class="about-name">about</span>
+      </div>
+
+      <div class="work">
+        <img src="./images/work-icon.png">
+        <span class="work-name">work</span>
+      </div>
+
+      <div class="blog">
+        <img src="./images/blog-icon.png">
+        <span class="blog-name">blog</span>
+      </div>
+
+      <div class="contact">
+        <img src="./images/contact-icon.png">
+        <span class="contact-name">contact</span>
+      </div>
+    </nav>
+
+    <div id="menuToggle" >
+      <div onclick="myFunction()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="menu">
+        <a href=" ">home</a>
+        <a href=" ">about</a>
+        <a href=" ">work</a>
+        <a href=" ">blog</a>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="slider">
+    <div class="like-rabbits">DO YOU LIKE RABBITS?</div>
+    <div class="like-oranges">DO YOU LIKE ORANGES?</div>
+  </section>
+  <main>
+    <section class="lorems-content text-section">
+      <div class="text-section-block">
+        <p class="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <button class="text-section-link">read more...</button>
+      </div>
+      <div class="text-section-block">
+        <p class="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <button class="text-section-link">read more...</button>
+      </div>
+      <div class="text-section-block">
+        <p class="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <button class="text-section-link">read more...</button>
+      </div>
+      <div class="text-section-block">
+        <p class="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <button class="text-section-link">read more...</button>
+      </div>
+
+    </section>
+
+    <div class="meeting">Meet the team</div>
+
+    <section class="team-leads">
+      <figure>
+        <h2 class="team-header">Hoof <span class="team-header-position">- Lead Designer</span></h2>
+        <img src="images/lead1.jpg" class="leads">
+        <figcaption class="descr-lead">
+          <div>
+            Hoof is our most talanted designer. However he`s not the talkative type and I would
+            advise not getting on
+            the wrong side of him.
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="">
+        <h2 class="team-header">Nibs <span class="team-header-position">- CEO/Director</span></h2>
+        <img src="images/lead2.jpg" class="leads">
+        <figcaption class="descr-lead">
+          <div>
+            Nibs is our go to woman. She’s the ceo/director of orange rabbit and runs fast when she
+            has too.
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <h2 class="team-header">Squawk <span class="team-header-position">- Developer</span></h2>
+        <img src="images/lead3.jpg" class="leads">
+        <figcaption class="descr-lead">
+          <div>
+            Squawk is no social bunny. But when it comes to programming he stands out from the
+            crowd.
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+
+    <div class="message">Send us a message...</div>
+
+    <form class="forms" method="post">
+      <div class="forms-wrapper">
+
+        <fieldset>
+
+          <label class="forms-item" for="forms-name-id">
+            <span class="forms-title">Name:</span>
+            <input class="forms-input-name" id="forms-name-id" type="text" placeholder="Please enter your first name"
+              required="">
+          </label>
+
+          <label class="forms-item" for="forms-email-id">
+            <span class="forms-title">Email:</span>
+            <input class="forms-input-email" id="forms-email-id" type="email" placeholder="Please enter your email"
+              required="">
+          </label>
+
+          <label class="forms-item" for="forms-message-id">
+            <span class="forms-title">Message:</span>
+            <textarea class="forms-input-message" id="forms-message-id" rows="3"></textarea>
+          </label>
+
+        </fieldset>
+
+        <button type="submit" class="form-button">Submit</button>
+      </div>
+    </form>
+
+  </main>
+
+  <footer><span class="footer-text">COPYRIGHT ORANGE RABBIT - DESIGNED BY JAKE BHATT.</span></footer>
+  <script src="./menu.js"></script>
+</body>
+
+</html>

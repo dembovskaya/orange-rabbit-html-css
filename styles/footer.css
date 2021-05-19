@@ -1,0 +1,21 @@
+footer {
+  margin-top: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 68px;
+  background-color: #fb9c06;
+  box-shadow: 0 5px #cc830f;
+}
+
+.footer-text {
+  margin: 0 auto;
+  padding: 23px 0;
+  text-align: center;
+  font-family: "Bitter";
+  font-size: 34px;
+  font-weight: 100;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  color: #fff;
+}

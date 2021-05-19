@@ -1,0 +1,76 @@
+.meeting {
+  padding-top: 62px;
+  padding-bottom: 16px;
+}
+
+.message {
+  padding-top: 37px;
+  padding-bottom: 54px;
+}
+
+.meeting,
+.message {
+  padding-left: 25px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Bitter", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 23px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  color: #ffac00;
+}
+
+.team-leads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .team-leads {
+    flex-direction: column;
+  }
+
+  .leads {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.leads {
+  width: 300px;
+  height: 300px;
+  border: 7px solid #ffb540;
+  border-radius: 50%;
+  background-color: #ffac00;
+}
+
+figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.descr-lead div {
+  padding-top: 15px;
+  padding-left: 22px;
+  max-width: 270px;
+  line-height: 23px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.team-header {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 0.3px;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.team-header-position {
+  color: #ffac00;
+}

@@ -1,0 +1,82 @@
+.forms-wrapper {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 15px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.forms-title {
+  letter-spacing: 1px;
+  float: left;
+  font-size: 24px;
+  font-family: "Bitter";
+  font-weight: 300;
+  line-height: 23px;
+  color: #fb9c06;
+}
+
+.forms-input-name,
+.forms-input-email,
+.form.forms-wrapper {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 15px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.forms-title {
+  letter-spacing: 1px;
+  float: left;
+  font-size: 24px;
+  font-family: "Bitter";
+  font-weight: 300;
+  line-height: 23px;
+  color: #fb9c06;
+}
+
+.forms-input-name,
+.forms-input-email,
+.forms-input-message {
+  float: right;
+  font-size: 18px;
+  font-family: "Bitter";
+  width: 88%;
+  padding: 7px 2px;
+  border: none;
+  box-shadow: inset 5px 2px #d2d0cf;
+  background-color: #f8f7f6;
+  padding-left: 20px;
+}
+
+.forms-input-name,
+.forms-input-email {
+  margin-bottom: 35px;
+}
+
+.form-button {
+  font-family: "Bitter";
+  font-style: normal;
+  float: right;
+  width: 178px;
+  height: 45px;
+  letter-spacing: 1px;
+  margin-top: 17px;
+  margin-right: 34px;
+  border: 1px solid #f6bb5c;
+  box-shadow: 0 3px #cc830f;
+  font-size: 30px;
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: #fb9c06;
+}

@@ -1,0 +1,23 @@
+.home:hover,
+.about:hover,
+.work:hover,
+.blog:hover,
+.contact:hover {
+  color: #fcba50;
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #fb9d0686;
+}
+
+.form-button:hover {
+  background-color: #d68501;
+  cursor: pointer;
+}
+
+.form-button:focus {
+  background-color: #ac6a00;
+  cursor: pointer;
+}

@@ -1,0 +1,280 @@
+@media screen and (max-width: 1440px) {
+  .text-section-block {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #menuToggle {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  #menuToggle {
+    margin-right: 30px;
+  }
+  
+  .slider {
+    height: 300px;
+  }
+
+  header {
+    justify-content: left;
+  }
+
+  nav {
+    padding-left: 150px;
+    display: none;
+  }
+
+  .rabbit-logo {
+    padding-left: 30px;
+  }
+
+  .like-rabbits,
+  .like-oranges {
+    display: none;
+  }
+
+  #menuToggle {
+    display: block;
+  }
+
+  footer {
+    height: 48px;
+  }
+
+  .footer-text {
+    font-size: 24px;
+  }
+
+  .forms-input-name,
+  .forms-input-email,
+  .forms-input-message {
+    width: 83%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rabbit-logo {
+    width: 77px;
+    height: 95px;
+  }
+
+  .company-1stname,
+  .company-2ndname {
+    display: none;
+  }
+
+  footer {
+    height: 48px;
+  }
+
+  .footer-text {
+    font-size: 24px;
+  }
+
+  .slider {
+    height: 200px;
+  }
+
+  .forms-input-name,
+  .forms-input-email,
+  .forms-input-message {
+    width: 80%;
+  }
+
+  footer {
+    height: 38px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+  }
+
+  .meeting,
+  .message {
+    font-size: 30px;
+  } 
+
+  .form-button {
+  width: 150px;
+  height: 35px;
+  font-size: 26px;
+}
+
+  .forms-title {
+  font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 427px) {
+  .text-section-link {
+    font-size: 16px;
+    padding-left: 100px;
+  }
+
+  .text-section {
+    width: 98%;
+  }
+
+  .slider {
+    display: none;
+  }
+
+  .rabbit-logo {
+    width: 67px;
+    height: 85px;
+  }
+
+  footer {
+    height: 36px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .forms-input-name,
+  .forms-input-email,
+  .forms-input-message {
+    width: 70%;
+  }
+
+  .meeting,
+  .message {
+    font-size: 22px;
+  } 
+
+  .form-button {
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+}
+
+  .forms-title {
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width: 377px) {
+  .leads {
+    width: 250px;
+    height: 250px;
+    }
+
+  .text-section-block {
+    width: 360px;
+  }
+
+  .lorems-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-section-link {
+    font-size: 16px;
+    padding-left: 120px;
+  }
+
+  .rabbit-logo {
+    width: 57px;
+    height: 75px;
+  }
+
+  footer {
+    height: 26px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .forms-input-name,
+  .forms-input-email,
+  .forms-input-message {
+    width: 67%;
+  }
+
+  .meeting,
+  .message {
+    font-size: 22px;
+  } 
+
+  .form-button {
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+}
+
+  .forms-title {
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width: 322px) {
+  .text-section-block {
+    width: 300px;
+  }
+
+  .lorems-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-section-link {
+    font-size: 16px;
+    padding-left: 120px;
+  }
+
+  .rabbit-logo {
+    width: 47px;
+    height: 65px;
+  }
+
+  footer {
+    height: 20px;
+  }
+
+  .footer-text {
+    display: none;
+  }
+
+  .forms-input-name,
+  .forms-input-email,
+  .forms-input-message {
+    width: 60%;
+  }
+
+  .meeting,
+  .message {
+    font-size: 18px;
+  } 
+
+  .form-button {
+  width: 80px;
+  height: 25px;
+  font-size: 16px;
+}
+
+  .forms-title {
+  font-size: 16px;
+}
+
+  .leads {
+  width: 200px;
+  height: 200px;
+  }
+
+  .team-header {
+    font-size: 16px;
+  } 
+
+  .forms-input-name,
+  .forms-input-email,
+  .forms-input-message {
+    font-size: 12px;
+}
+}
+
